@@ -1,0 +1,11 @@
+__pycache__
+*.sqlite3
+.venv
+.git
+.env.production
+.env.debug
+.env*
+
+client/node_modules
+client/.yarn
+client/.next

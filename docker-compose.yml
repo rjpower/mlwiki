@@ -1,0 +1,7 @@
+services:
+  mlwiki:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file:
+      - .env.production
